@@ -1,0 +1,21 @@
+{
+  "name": "bug-repro-next-w5-worker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next -p 3001",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "worker-loader": "^3.0.7"
+  },
+  "resolutions": {
+    "webpack": "5.13.0"
+  },
+  "private": true
+}
